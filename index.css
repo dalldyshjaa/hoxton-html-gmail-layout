@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  height: 100vh;
+  display: grid;
+  grid-template:
+    "nav-bar nav-bar nav-bar" 80px
+    "right-menu main left-menu" 1fr/
+    400px 1fr 400px;
+}
+.nav-bar {
+  background-color: yellow;
+  grid-area: nav-bar;
+}
+.right-menu {
+  background-color: blue;
+  grid-area: right-menu;
+}
+.main {
+  background-color: blueviolet;
+  grid-area: main;
+}
+.left-menu {
+  background-color: springgreen;
+  grid-area: left-menu;
+}
