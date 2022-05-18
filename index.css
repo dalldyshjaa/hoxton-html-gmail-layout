@@ -7,9 +7,9 @@
   height: 100vh;
   display: grid;
   grid-template:
-    "nav-bar nav-bar nav-bar" 80px
-    "right-menu main left-menu" 1fr/
-    400px 1fr 400px;
+    "nav-bar nav-bar nav-bar nav-bar" 80px
+    "right-menu main left-menu left-side-menu" 1fr/
+    400px 1fr 400px 100px;
 }
 .nav-bar {
   background-color: yellow;
@@ -26,4 +26,8 @@
 .left-menu {
   background-color: springgreen;
   grid-area: left-menu;
+}
+.left-side-menu {
+  background-color: brown;
+  grid-area: left-side-menu;
 }
