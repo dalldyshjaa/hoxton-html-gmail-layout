@@ -8,8 +8,11 @@
   display: grid;
   grid-template:
     "nav-bar nav-bar nav-bar nav-bar" 80px
-    "right-menu main left-menu left-side-menu" 1fr/
+    "left-menu main right-menu right-side-menu" 1fr/
     400px 1fr 400px 100px;
+}
+.container > * {
+  border: 1px solid grey;
 }
 .nav-bar {
   background-color: yellow;
@@ -18,16 +21,32 @@
 .right-menu {
   background-color: blue;
   grid-area: right-menu;
+  overflow: auto;
 }
 .main {
   background-color: blueviolet;
   grid-area: main;
+  border-left: none;
+  height: 2000px;
+  overflow: auto;
 }
 .left-menu {
   background-color: springgreen;
   grid-area: left-menu;
+  border-right: none;
+  overflow: auto;
 }
-.left-side-menu {
+.right-side-menu {
   background-color: brown;
-  grid-area: left-side-menu;
+  grid-area: right-side-menu;
+}
+.child-main {
+  height: 2500px;
+}
+.child-right-menu {
+  height: 2500px;
+}
+
+.child-left-menu {
+  height: 2500px;
 }
