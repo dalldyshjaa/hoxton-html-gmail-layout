@@ -15,8 +15,10 @@
   border: 1px solid grey;
 }
 .nav-bar {
-  background-color: yellow;
+  background-color: white;
   grid-area: nav-bar;
+  border: none;
+  border-bottom: 0.5px solid rgba(173, 166, 166, 0.957);
 }
 .right-menu {
   background-color: blue;
