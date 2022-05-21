@@ -1,0 +1,42 @@
+.main {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+.main-top-items {
+  position: sticky;
+  display: grid;
+  grid-template-columns: auto 1fr auto;
+}
+.main__left-items {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px 20px;
+  place-items: center;
+}
+.main__right-items {
+  display: grid;
+  grid-template-columns: 1fr 0.8fr 0.8fr;
+  padding: 8px 20px;
+  padding-right: 8px;
+  place-items: center;
+}
+.emails {
+  border-top: 0.5px solid rgba(173, 166, 166, 0.957);
+}
+.emails_email {
+  display: grid;
+  grid-template-columns: auto auto 1fr 1.5fr auto;
+  grid-template-rows: 30px;
+  gap: 5px;
+  border-bottom: 0.5px solid rgba(173, 166, 166, 0.957);
+  padding: 10px 20px;
+  overflow: hidden;
+}
+.email-info {
+  display: grid;
+  padding-top: 3px;
+  height: 20px;
+
+  overflow: hidden;
+  align-items: center;
+}
