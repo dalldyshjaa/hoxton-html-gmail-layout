@@ -6,15 +6,15 @@
   padding: 15px;
 }
 hr {
-  border: 0.5px solid rgba(173, 166, 166, 0.957);
-  background-color: rgba(173, 166, 166, 0.957);
+  border: 0.5px solid rgb(229, 229, 229);
+  background-color: rgb(229, 229, 229);
 }
 .preference-box {
   display: grid;
   grid-template-rows: auto auto auto 1fr;
 }
 .quick-settings {
-  border-bottom: 0.5px solid rgba(173, 166, 166, 0.957);
+  border-bottom: 0.5px solid rgb(229, 229, 229);
   padding: 15px;
   display: grid;
   grid-template-rows: auto auto;
@@ -27,19 +27,19 @@ hr {
   padding: 13px 0px;
 }
 .all-settings-button {
-  border: 0.5px solid rgba(173, 166, 166, 0.957);
+  border: 0.5px solid rgb(229, 229, 229);
 
   background-color: white;
   outline: none;
   border-radius: 5px;
-  color: rgb(42, 76, 172);
+  color: rgb(49, 129, 234);
   font-weight: bold;
   font-size: larger;
   width: 100%;
   padding: 10px;
 }
 .density {
-  border-bottom: 0.5px solid rgba(173, 166, 166, 0.957);
+  border-bottom: 0.5px solid rgb(229, 229, 229);
   padding: 15px;
   display: grid;
   grid-template-rows: repeat(4, auto);
@@ -59,7 +59,7 @@ hr {
   justify-items: start;
 }
 .theme {
-  border-bottom: 0.5px solid rgba(173, 166, 166, 0.957);
+  border-bottom: 0.5px solid rgb(229, 229, 229);
 }
 .theme-top {
   padding: 15px;
