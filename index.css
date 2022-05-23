@@ -7,7 +7,7 @@
   height: 100vh;
   display: grid;
   grid-template:
-    "nav-bar nav-bar nav-bar nav-bar" 80px
+    "nav-bar nav-bar nav-bar nav-bar" 70px
     "left-menu main right-menu right-side-menu" 1fr/
     256px 1fr 300px 50px;
 }
